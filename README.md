@@ -1,6 +1,9 @@
 # RoleBot
 A bot that will add/remove a role after a user acquires 2 roles or loses one or more.
 
+IMPORTANT
+Make sure to change all variables in the file RoleBot.py to their relevant values, including the TOKEN at the bottom.
+
 To setup,
 
 1) Install Python 3.7
