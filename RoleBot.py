@@ -23,7 +23,6 @@ import discord
 from discord.utils import get
 from discord.ext import commands
 from discord_slash import SlashCommand, SlashContext
-from discord.ext.commands import Bot
 
 # Initialise the bot
 
