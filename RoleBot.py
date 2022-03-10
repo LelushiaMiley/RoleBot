@@ -8,7 +8,7 @@
 roleAId = [insert number]
 roleBId = [insert number]
 roleCId = [insert number]
-roleCName = "Name of role to be added"
+roleCName = "Name of role to be added or removed"
 
 guildId = [insert number]
 channelId = [insert number]
