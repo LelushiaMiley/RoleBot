@@ -1,5 +1,8 @@
 # RoleBot
-A bot that will add/remove a role after a user acquires 2 roles or loses one or more.
+RoleBot's current features include:
+
+An event listener that triggers when a role change happens that will add or remove a role based on whether a user has two other required roles or not.
+A /slash command to manually check all users (suitable for if the bot has downtime or for when it first joins)
 
 # Important
 Make sure to change all variables in the file RoleBot.py to their relevant values, including the TOKEN at the bottom.
