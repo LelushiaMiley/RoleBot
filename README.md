@@ -7,14 +7,24 @@ RoleBot's current features include:
 # Important
 Make sure to change all variables in the file RoleBot.py to their relevant values, including the TOKEN at the bottom.
 
-# Setup
+# Ubuntu VM (AWS) Setup
+
+1) sudo apt-get install python3.7
+2) sudo apt install python3-pip
+3) pip install -U discord
+4) pip install -U discord-py-slash-command
+5) Navigate to the folder with RoleBot.py in it
+6) Run python3 RoleBot.py
+
+
+# Local Setup
 
 1) Install Python 3.7
 2) pip install -U discord
 3) pip install -U discord-py-slash-command
 4) Navigate to the folder with RoleBot.py in it
 5) Open a terminal
-6) Run py .\RoleBot.py or python .\RoleBot.py
+6) Run py .\RoleBot.py or python .\RoleBot.py or python3 .\RoleBot.py
 
 After a few seconds, to establish the connection, the bot will be active and can be used immediately. 
 
