@@ -149,4 +149,4 @@ token = secret['TOKEN'] # declare the token
 
 # Run the bot
 
-bot.run(token) # Token template, do not share. Must be replaced with what is acquired from Discord Developer Portal
+bot.run(token) # Token, do not share. Can be replaced with what is acquired from Discord Developer Portal
