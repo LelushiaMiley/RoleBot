@@ -11,7 +11,7 @@ Make sure to change all variables in the file RoleBot.py to their relevant value
 There are 3 options:
 - Edit "token" in bot.run() to manually input the token
 - Create a .env file and insert the token with the variable name TOKEN
-- Setup AWS Secrets Manager and edit the secret_name variable in get_secret()
+- Setup AWS Secrets Manager and edit the secret_name and region_name variables in get_secret()
 
 # Ubuntu VM (AWS) Setup
 
