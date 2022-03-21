@@ -67,12 +67,12 @@ async def test(ctx: SlashContext):
     elif roleAddCounter == 0 and roleLossCounter == 0:
         await ctx.send(f"No action was taken. Roles are accurate.")
 
-# Even listener to update roles when needed if there is a role change
+# Event listener to update roles when needed if there is a role change
 
 @bot.event
 async def on_member_update(before, after):
     if len(before.roles) < len(after.roles):
-        newRole = next(role for role in after.roles if role not in before.roles) # checks which role was gained
+        newRole = next(role for role in after.roles if role not in before.roles) # Checks which role was gained
         if newRole.id == roleAId or newRole.id == roleBId:
             roleIds = []
             for i in after.roles:
